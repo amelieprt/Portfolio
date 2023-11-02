@@ -7,12 +7,15 @@
 .amelie {
     display: flex;
     height: 200px;
+    float: left;
 }
-.Apropos p {
-    display: flex;
-
+.textpres{
+    padding-top: 5%;
+    padding-left: 30%;
+    
 }
 .passion h2 {
+    padding-top: 15%;
     color: black;
     padding-bottom: 10%;
 }
@@ -62,6 +65,11 @@
 
 .amelie{
     padding-left: 5%;
+    padding-bottom: 5%;
+}
+.textpres{
+    padding-left: 0%;
+    padding-top: 30%;
 }
 .cheval {
     height: 100px;
