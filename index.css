@@ -1,0 +1,102 @@
+
+.div-titre {
+    padding-top: 10%;
+    width: 100%;
+}
+
+.titre {
+    color: orange;
+    text-align: center;
+    font-weight: 700;
+    font-size: 92px;
+    line-height: 120px;
+    text-transform: uppercase;
+}
+
+section.accueil-projet {
+    background-color: grey;
+    font-family: 'DIN', sans-serif;
+    font-weight: bold;
+    /* margin-bottom: 1%; */
+}
+h2{
+    color: white;
+    text-align: center;
+    font-size: 200%;
+}
+/* .couverture-projet img {
+    padding-left: 35%;
+} */
+.Portfoliodev h2 {
+    color: black;
+    padding-bottom: 5%;
+}
+.textmusee   {
+
+    padding-left: 10%;
+}
+.textepicbrowser {
+    padding-left: 10%;
+}
+.textcolloque {
+    padding-left: 10%;
+}
+
+.Portfoliodev .img {
+    width: 20%;
+    height: 20%;
+    text-align: center;
+}
+.Projetaudio h2 {
+    color: black;
+    padding-bottom: 5%;
+}
+
+.Projetaudio a {
+    padding-left: 40%;
+}
+.Projetaudio h3 {
+    padding-left: 40%;
+}
+.Affiche {
+    height: 450px;
+}
+
+@media (max-width: 1024px) {
+    .accueil {
+        padding-bottom: 10%;
+    }
+    .accueil .titre {
+        font-size:52px;
+        line-height: 80px;
+    }
+.image {
+    height: 150px;
+}
+.image1{
+    
+    height: 120px;
+}
+.image2 {
+    
+    height: 100px;
+}
+.textmusee   {
+
+    padding-left: 0%;
+}
+.textepicbrowser {
+    padding-left: 0%;
+}
+.textcolloque {
+    padding-left: 0%;
+}
+.Projetaudio a {
+    padding-left: 0%;
+}
+.Projetaudio h3 {
+    padding-left: 0%;
+}
+
+}
+

@@ -1,0 +1,132 @@
+header {
+    margin-right: 1%;
+}
+
+header nav ul li a {
+    font-family: 'DIN', sans-serif;
+    color: black;
+    font-weight: bold;
+    text-underline-offset: 6px;
+    font-size: 150%;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-end;
+    background: white;
+    font-family: 'DIN', sans-serif;
+    padding: 30px;
+}
+
+header .logonoir {
+    position: absolute;
+    width: 100px;
+}
+header .logoblanc {
+    position: absolute;
+    width: 100px;
+}
+
+header .logoblanc {
+    opacity: 0%;
+}
+
+header .logonoir {
+    opacity: 100%;
+}
+
+header .logonoir:hover {
+    transition: 300ms;
+    opacity: 0%;
+}
+
+header .logoblanc:hover {
+    transition: 300ms;
+    opacity: 100%;
+}
+
+header .loupe1 {
+    width: 30px;
+    height: 40px;
+    display: inline;
+    justify-self: flex-end;
+}
+
+header .couleur a:hover {
+    color: orange;
+}
+
+header .open,
+header .close {
+    background: white;
+    color: black;
+    display: none;
+    margin-right: 5px;
+}
+
+@media (max-width: 1024px) {
+
+    header .logonoir,
+    header .logoblanc {
+        width: 10%;
+    }
+
+    header ul {
+        display: none;
+    }
+
+    /* État fermé */
+    header .main-menu .close {
+        display: none;
+    }
+
+    header .main-menu ul,
+    header .loupe1 {
+        display: none;
+    }
+
+    /* État ouvert */
+
+
+    header .main-menu:target ul {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        right: 0;
+        background: white;
+    }
+
+    header .main-menu:target .close {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    header .main-menu:target .open {
+        display: none;
+    }
+
+    header nav ul li {
+        margin: 10% 0;
+
+    }
+
+    header .open {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+}
+
+@media (max-width: 504px) {
+
+    header .logonoir,
+    header .logoblanc {
+        width: 20%;
+    }
+}

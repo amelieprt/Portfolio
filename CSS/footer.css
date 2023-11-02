@@ -1,0 +1,54 @@
+.footer {
+    background-color: black;
+    display: flex;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+}
+.accueil {
+    color: white;
+    padding-right: 15%;
+    padding-left: 15%;
+}
+.projet {
+    color: white;
+    padding-right: 15%;
+}
+.propos {
+    color: white;
+    padding-right: 15%;
+}
+.mention {
+    color: white;
+    padding-right: 15%;
+}
+.textmention h2 {
+    color: black;
+}
+
+.textmention a {
+    padding-right: 5%;
+}
+
+@media (max-width: 1024px) {
+    .accueil {
+        
+        padding-right: 7%;
+        padding-left: 2%;
+    }
+    .projet {
+        
+        padding-right: 7%;
+        
+    }
+    .propos {
+        
+        padding-right: 7%;
+        
+    }
+    .mention {
+        
+        padding-right: 7%;
+       
+    }
+}

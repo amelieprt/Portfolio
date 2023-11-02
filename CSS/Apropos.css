@@ -1,0 +1,86 @@
+.Apropos h2 {
+    text-align: center;
+    color: black;
+    padding-bottom: 10%;
+}
+
+.amelie {
+    display: flex;
+    height: 200px;
+}
+.Apropos p {
+    display: flex;
+
+}
+.passion h2 {
+    color: black;
+    padding-bottom: 10%;
+}
+
+.cheval {
+    height: 150px;
+    padding-left:  10%; 
+    padding-right: 15%;
+}
+.video{
+    height: 150px;
+    padding-right: 15%;
+}
+.velo{
+    height: 150px;
+    padding-right: 15%;
+}
+.amis{
+    height: 150px;
+    
+}
+
+.formation h2 {
+    color: black;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.Bac {
+    text-align: center;
+}
+.mmi {
+    text-align: center;
+}
+.stage {
+    text-align: center;
+}
+.CDI {
+    text-align: center;
+}
+.trait {
+    padding-left: 42%;
+    height: 200px;
+}
+
+@media (max-width: 1024px) {
+
+.amelie{
+    padding-left: 5%;
+}
+.cheval {
+    height: 100px;
+    padding-left: 40% ;
+}
+.video {
+    height: 100px;
+    padding-left: 40% ;
+}
+.velo {
+    height: 100px;
+    padding-left: 40% ;
+}
+.amis {
+    height: 100px;
+    padding-left: 40% ;
+}
+.trait {
+    padding-left: 22%;
+    
+}
+}
