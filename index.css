@@ -31,16 +31,58 @@ h2{
     color: black;
     padding-bottom: 5%;
 }
+.image {
+    padding-top: 7%;
+    padding-bottom: 5%;
+}
 .textmusee   {
 
     padding-left: 10%;
+    text-decoration: none;
+    padding-right: 10%;
+}
+.textmusee a {
+    text-decoration: none;
+}
+.image1 {
+    padding-top: 7%;
+    padding-bottom: 5%;
 }
 .textepicbrowser {
     padding-left: 10%;
+    text-decoration: none;
+    padding-right: 10%;
+}
+.textepicbrowser a {
+    text-decoration: none;
+}
+.image2 {
+    padding-top: 7%;
+    padding-bottom: 5%;
 }
 .textcolloque {
+    
     padding-left: 10%;
+    padding-right: 10%;
 }
+.textcolloque a {
+    text-decoration: none;
+}
+.textpdm  {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+}
+.textpdm a {
+    text-decoration: none;
+}
+.image3 {
+    padding-top: 7%;
+    padding-bottom: 5%;
+    width: 30%;
+    height: 30%;
+}
+
 
 .Portfoliodev .img {
     width: 20%;
@@ -69,6 +111,11 @@ h2{
 }
 .Jumping {
     height: 180px;
+}
+
+.Projetaudio a {
+    text-decoration: none;
+    
 }
 
 @media (max-width: 1024px) {

@@ -12,7 +12,8 @@ header nav ul li a {
 
 header nav ul li {
     display: inline;
-    margin-left: 20px;
+    /* margin-left: 50px; */
+    margin-right: 50px;
 }
 
 header ul {
@@ -52,12 +53,7 @@ header .logoblanc:hover {
     opacity: 100%;
 }
 
-header .loupe1 {
-    width: 30px;
-    height: 40px;
-    display: inline;
-    justify-self: flex-end;
-}
+
 
 header .couleur a:hover {
     color: orange;
