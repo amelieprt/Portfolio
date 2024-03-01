@@ -146,10 +146,25 @@ a{
     .accueil {
         padding-bottom: 10%;
     }
-    .accueil .titre {
-        font-size:52px;
-        line-height: 80px;
+    .logoAP  {
+        width: 70%;
+        height: 70%;
     }
+    .titre {
+        
+        color: #000;
+        padding-left: 12%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        font-family: 'BenchNine', light;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        letter-spacing: 23.04px;
+        text-transform: uppercase;
+    }
+        
 .image {
     height: 150px;
 }
@@ -180,3 +195,32 @@ a{
 
 }
 
+@media (max-width: 800px) {
+    .logoAP{
+        width: 60%;
+        height: 60%;
+        padding-top: 15%;
+    }
+    .titre {
+        
+        padding-left: 12%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        font-size: 20px;
+        }
+}
+
+@media (max-width: 500px){
+    .logoAP{
+        padding-top: 35%;
+        padding-left: 10%;
+    }
+    .titre {
+        
+        padding-left: 20%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        font-family: 'BenchNine', light;
+        font-size: 18px;
+        }
+}
