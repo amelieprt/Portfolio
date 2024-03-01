@@ -1,33 +1,35 @@
 
 .div-titre {
-    padding-top: 10%;
     width: 100%;
 }
 
+.triangle_home{
+    position: absolute;
+    
+}
+
 .titre {
-    color: orange;
-    text-align: center;
-    font-weight: 700;
-    font-size: 92px;
-    line-height: 120px;
+    color: #000;
+    padding-left: 12%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: 'BenchNine', light;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 23.04px;
     text-transform: uppercase;
 }
 
-section.accueil-projet {
-    background-color: grey;
-    font-family: 'DIN', sans-serif;
-    font-weight: bold;
-    /* margin-bottom: 1%; */
-}
+
 h2{
     color: white;
     text-align: center;
     font-size: 300%;
 }
 
-h3 {
-    font-size: 20px;
-}
+
 p{
     font-size: 18px;
 }
