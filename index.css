@@ -5,6 +5,7 @@
 
 .triangle_home{
     position: absolute;
+    opacity: 100%;
     
 }
 
@@ -134,7 +135,13 @@ a{
     text-decoration: none;
     
 }
-
+@media (max-width: 1400px) {
+    .triangle_home{
+        
+        opacity: 0%;
+    }
+    
+}
 @media (max-width: 1024px) {
     .accueil {
         padding-bottom: 10%;
