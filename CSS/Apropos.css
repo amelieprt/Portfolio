@@ -21,22 +21,17 @@
 }
 
 .cheval {
-    height: 150px;
-    padding-left:  10%; 
+    padding-left:  5%; 
     padding-right: 15%;
 }
 .video{
-    height: 150px;
     padding-right: 15%;
 }
 .velo{
-    height: 150px;
+    
     padding-right: 15%;
 }
-.amis{
-    height: 150px;
-    
-}
+
 
 .formation h2 {
     color: black;
@@ -60,8 +55,34 @@
     padding-left: 42%;
     height: 200px;
 }
+@media (max-width: 1300px) {
+    .cheval {
+        
+        padding-right: 10%;
+    }
+    .video{
+        padding-right: 10%;
+    }
+    .velo{
+        
+        padding-right: 10%;
+    }
+}
 
-@media (max-width: 1024px) {
+@media (max-width: 1000px) {
+    .cheval {
+        
+        padding-right: 5%;
+    }
+    .video{
+        padding-right: 5%;
+    }
+    .velo{
+        
+        padding-right: 5%;
+    }
+}
+@media (max-width: 800px) {
 
 .amelie{
     padding-left: 5%;
@@ -72,19 +93,21 @@
     padding-top: 30%;
 }
 .cheval {
-    height: 100px;
+
     padding-left: 40% ;
+    padding-bottom: 5%;
 }
 .video {
-    height: 100px;
     padding-left: 40% ;
+    padding-bottom: 5%;
 }
 .velo {
-    height: 100px;
+
     padding-left: 40% ;
+    padding-bottom: 5%;
 }
 .amis {
-    height: 100px;
+
     padding-left: 40% ;
 }
 .trait {
