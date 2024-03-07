@@ -1,3 +1,11 @@
+.footerHome {
+    position: absolute; 
+}
+.footer1{
+    padding-top: 20%;
+}
+
+
 .footer {
     background-color: black;
     display: flex;
