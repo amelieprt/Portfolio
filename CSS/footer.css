@@ -68,3 +68,14 @@
        
     }
 }
+@media (max-width: 800px) {
+    .footer1{
+        padding-top: 30%;
+    }
+}
+
+@media (max-width: 500px) {
+    .footer1{
+        padding-top: 100%;
+    }
+}

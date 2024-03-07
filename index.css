@@ -2,10 +2,15 @@ body {
 margin: 0;
 
 }
+
 /* Section page d'accueil */
 
 .div-titre {
     width: 100%;
+}
+
+.logoAP {
+    padding-top: 5%;
 }
 
 .triangle_home{
@@ -17,7 +22,7 @@ margin: 0;
 .titre {
     color: #000;
     padding-left: 12%;
-    padding-top: 2%;
+    padding-top: 5%;
     padding-bottom: 2%;
     font-family: 'BenchNine-light';
     font-size: 32px;
@@ -34,6 +39,7 @@ h2{
     color: black;
     font-family: 'Urbanist', 'thin';
     padding-top: 10%;
+    padding-bottom: 5%;
     padding-left: 44px;
     font-size: 44px;
     font-weight: 100;
@@ -572,7 +578,7 @@ a{
 
 .linkedin img {
     position: absolute;
-    padding-left: 1%;
+    padding-left: 5%;
     padding-top: 45%;
     
 }
