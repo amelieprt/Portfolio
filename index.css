@@ -100,8 +100,73 @@ a{
 
 .CONTACTER {
 
+    padding-top: 15%;
+    padding-bottom: 5%;
+}
+
+/* Numéro de téléphone */
+.numero img{
+    position : absolute; 
+    padding-left: 10%;
+}
+.numero p {
+    position : absolute; 
+    padding-left: 15%;
+    
+}
+
+/* Adresse mail */
+
+.mail img {
+    position: absolute;
+    padding-left: 10%;
+    padding-top: 5%;
+}
+.mail p {
+    position: absolute;
+    padding-left: 15%;
+    padding-top: 5%;
+}
+
+/* localisation */
+
+.localisation img {
+    position: absolute;
+    padding-left: 10%;
     padding-top: 10%;
 }
+
+.localisation p {
+    position: absolute;
+    padding-left: 15%;
+    padding-top: 10%;
+}
+
+/* Linkedin */
+
+.linkedin img {
+    position: absolute;
+    padding-left: 50%;
+    
+}
+
+/* Instagram */
+
+.instagram img {
+    position: absolute;
+    padding-left: 50%;
+    padding-top: 5%;
+}
+
+/* Github  */
+
+.github img {
+    position: absolute;
+    padding-left: 50%;
+    padding-top: 10%;
+}
+
+
 /* .couverture-projet img {
     padding-left: 35%;
 } */
@@ -244,6 +309,52 @@ a{
     padding-left: 270%;
 }
 
+/* Section de contacter */
+
+.CONTACTER {
+
+    padding-top: 25%;
+    padding-bottom: 5%;
+}
+
+/* Adresse mail */
+
+.mail img {
+
+    padding-top: 7%;
+}
+.mail p {
+
+    padding-top: 7%;
+}
+
+/* localisation */
+
+.localisation img {
+
+    padding-top: 14%;
+}
+
+.localisation p {
+
+    padding-top: 14%;
+}
+
+
+
+/* Instagram */
+
+.instagram img {
+
+    padding-top: 7%;
+}
+
+/* Github  */
+
+.github img {
+
+    padding-top: 14%;
+}
 
 
 
@@ -309,6 +420,63 @@ a{
 .Developpement p {
     padding-left: 175%;
 }
+
+
+/* Section de contacter */
+
+.CONTACTER {
+
+    padding-top: 40%;
+    padding-bottom: 5%;
+}
+.numero p {
+    padding-left: 17%;
+}
+
+/* Adresse mail */
+
+.mail img {
+
+    padding-top: 10%;
+}
+.mail p {
+
+    padding-top: 10%;
+    padding-left: 17%;
+}
+
+/* localisation */
+
+.localisation img {
+
+    padding-top: 20%;
+}
+
+.localisation p {
+    padding-left: 17%;
+    padding-top: 20%;
+}
+
+/* Linkedin */
+.linkedin {
+    padding-left: 10%;
+}
+
+/* Instagram */
+
+.instagram img {
+    padding-left: 60%;
+    padding-top: 10%;
+}
+
+/* Github  */
+
+.github img {
+    padding-left: 60%;
+    padding-top: 20%;
+}
+
+
 }
 
 @media (max-width: 500px){
@@ -352,7 +520,7 @@ a{
 
 .Developpement {
     position: absolute;
-    padding-top: 80%;
+    padding-top: 65%;
 
 }
 .Developpement img {
@@ -362,4 +530,63 @@ a{
 .Developpement p {
     padding-left: 35%;
 }
+
+/* Section contacter */
+
+.CONTACTER {
+
+    padding-top: 135%;
+    padding-bottom: 5%;
+}
+.numero p {
+    padding-left: 20%;
+}
+
+/* Adresse mail */
+
+.mail img {
+
+    padding-top: 15%;
+}
+.mail p {
+
+    padding-top: 15%;
+    padding-left: 20%;
+}
+
+/* localisation */
+
+.localisation img {
+
+    padding-top: 30%;
+}
+
+.localisation p {
+    padding-left: 20%;
+    padding-top: 30%;
+}
+
+
+.linkedin img {
+    position: absolute;
+    padding-left: 1%;
+    padding-top: 45%;
+    
+}
+
+/* Instagram */
+
+.instagram img {
+    padding-left: 10%;
+    padding-top: 60%;
+}
+
+/* Github  */
+
+.github img {
+    padding-left: 10%;
+    padding-top: 75%;
+}
+
+
 }
