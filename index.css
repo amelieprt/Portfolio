@@ -1,4 +1,6 @@
 
+/* Section page d'accueil */
+
 .div-titre {
     width: 100%;
 }
@@ -14,7 +16,7 @@
     padding-left: 12%;
     padding-top: 2%;
     padding-bottom: 2%;
-    font-family: 'BenchNine', light;
+    font-family: 'BenchNine-light';
     font-size: 32px;
     font-style: normal;
     font-weight: 300;
@@ -23,21 +25,83 @@
     text-transform: uppercase;
 }
 
+/* Style de H2 */
 
 h2{
-    color: white;
-    text-align: center;
-    font-size: 300%;
-}
-
-
-p{
-    font-size: 18px;
-}
-a{
-    font-size: 24px;
-    font-family:Helvetica;
     color: black;
+    font-family: 'Urbanist', 'thin';
+    padding-top: 10%;
+    padding-left: 44px;
+    font-size: 44px;
+    font-weight: 100;
+
+    
+}
+
+/* Section de la page A propos de moi */
+.paragraphePropos {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.bouton{
+    padding-left: 60px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.bouton input{
+    display: flex;
+    padding: 15px 30px;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 5px;
+    border: 1px solid var(--BLACK, #000);
+    background: var(--AMELIE---ORANGE, #EFA35D);
+
+
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Section compétences pour l'audiovisuel */
+.Audiovisuel {
+    position: absolute;
+}
+.Audiovisuel img {
+    padding-left: 40%;
+}
+
+.Audiovisuel p {
+    padding-left: 65%;
+}
+
+/* Section compétences pour le developpement  */
+
+.Developpement {
+    position: absolute;
+
+}
+.Developpement img {
+    padding-left: 300%;
+}
+
+.Developpement p {
+    padding-left: 335%;
+}
+
+
+/* Section me contacter */
+
+.CONTACTER {
+
+    padding-top: 10%;
 }
 /* .couverture-projet img {
     padding-left: 35%;
@@ -164,7 +228,29 @@ a{
         letter-spacing: 23.04px;
         text-transform: uppercase;
     }
-        
+
+
+
+/* Section compétences pour le developpement  */
+
+.Developpement {
+    position: absolute;
+
+}
+.Developpement img {
+    padding-left: 240%;
+}
+
+.Developpement p {
+    padding-left: 270%;
+}
+
+
+
+
+
+
+
 .image {
     height: 150px;
 }
@@ -208,6 +294,22 @@ a{
         padding-bottom: 2%;
         font-size: 20px;
         }
+
+
+
+/* Section compétences pour le developpement  */
+
+.Developpement {
+    position: absolute;
+
+}
+.Developpement img {
+    padding-left: 150%;
+}
+
+.Developpement p {
+    padding-left: 175%;
+}
 }
 
 @media (max-width: 500px){
@@ -223,4 +325,42 @@ a{
         font-family: 'BenchNine', light;
         font-size: 18px;
         }
+
+        h2{
+            color: black;
+            font-family: 'Urbanist', 'thin';
+            padding-top: 10%;
+            padding-left: 44px;
+            font-size: 26px;
+            font-weight: 100;
+        
+            
+        }
+
+        /* Section compétences pour l'audiovisuel */
+.Audiovisuel {
+    position: absolute;
+}
+.Audiovisuel img {
+    padding-left: 12%;
+}
+
+.Audiovisuel p {
+    padding-left: 35%;
+}
+
+/* Section compétences pour le developpement  */
+
+.Developpement {
+    position: absolute;
+    padding-top: 80%;
+
+}
+.Developpement img {
+    padding-left: 12%;
+}
+
+.Developpement p {
+    padding-left: 35%;
+}
 }
