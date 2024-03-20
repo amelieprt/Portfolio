@@ -1,19 +1,25 @@
-
+.Apropos {
+    display: flex;
+    flex-direction: column;
+}
 .Apropos h2 {
+    display: flex;
     text-align: center;
     color: black;
-    padding-bottom: 10%;
 }
-
+.pres {
+    display: flex;
+    align-items: center;
+}
 .amelie {
     display: flex;
+    margin-left: 5%;
     height: 200px;
     float: left;
 }
-.textpres{
-    padding-top: 5%;
-    padding-left: 30%;
-    
+.textpres {
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .passion h2 {
     padding-top: 15%;
@@ -85,14 +91,19 @@
 }
 @media (max-width: 800px) {
 
-.amelie{
-    padding-left: 5%;
-    padding-bottom: 5%;
-}
-.textpres{
-    padding-left: 0%;
-    padding-top: 30%;
-}
+    .Apropos {
+        display: flex;
+        flex-direction: column;
+    }
+    .pres {
+    display: flex;
+    flex-direction: column;
+    }
+    .amelie{
+        margin-bottom: 5%;
+    }
+
+
 .cheval {
 
     padding-left: 40% ;
