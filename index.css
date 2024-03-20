@@ -1,7 +1,8 @@
 body {
 margin: 0;
-
+width: 100%;
 }
+
 
 /* Section page d'accueil */
 
@@ -79,29 +80,18 @@ a{
 }
 
 /* Section compétences pour l'audiovisuel */
-.Audiovisuel {
-    position: absolute;
+.competance{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
-.Audiovisuel img {
-    padding-left: 40%;
+.competance img{
+width: 100%;
 }
-
-.Audiovisuel p {
-    padding-left: 65%;
-}
-
-/* Section compétences pour le developpement  */
-
-.Developpement {
-    position: absolute;
-
-}
-.Developpement img {
-    padding-left: 300%;
-}
-
-.Developpement p {
-    padding-left: 335%;
+.competance-content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 
@@ -109,7 +99,6 @@ a{
 
 .CONTACTER {
 
-    padding-top: 15%;
     padding-bottom: 5%;
 }
 
@@ -306,23 +295,10 @@ a{
 
 /* Section compétences pour le developpement  */
 
-.Developpement {
-    position: absolute;
-
-}
-.Developpement img {
-    padding-left: 240%;
-}
-
-.Developpement p {
-    padding-left: 270%;
-}
 
 /* Section de contacter */
 
 .CONTACTER {
-
-    padding-top: 25%;
     padding-bottom: 5%;
 }
 
@@ -418,24 +394,12 @@ a{
 
 /* Section compétences pour le developpement  */
 
-.Developpement {
-    position: absolute;
-
-}
-.Developpement img {
-    padding-left: 150%;
-}
-
-.Developpement p {
-    padding-left: 175%;
-}
 
 
 /* Section de contacter */
 
 .CONTACTER {
 
-    padding-top: 40%;
     padding-bottom: 5%;
 }
 .numero p {
@@ -513,38 +477,9 @@ a{
             
         }
 
-        /* Section compétences pour l'audiovisuel */
-.Audiovisuel {
-    position: absolute;
-}
-.Audiovisuel img {
-    padding-left: 12%;
-}
-
-.Audiovisuel p {
-    padding-left: 35%;
-}
-
-/* Section compétences pour le developpement  */
-
-.Developpement {
-    position: absolute;
-    padding-top: 65%;
-
-}
-.Developpement img {
-    padding-left: 12%;
-}
-
-.Developpement p {
-    padding-left: 35%;
-}
-
 /* Section contacter */
 
 .CONTACTER {
-
-    padding-top: 135%;
     padding-bottom: 5%;
 }
 .numero p {
