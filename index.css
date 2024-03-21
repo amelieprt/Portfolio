@@ -100,7 +100,7 @@ width: 100%;
 .CONTACTER {
 
     padding-bottom: 5%;
-}
+} 
 
 /* Numéro de téléphone */
 .numero img{
@@ -111,7 +111,7 @@ width: 100%;
     position : absolute; 
     padding-left: 15%;
     
-}
+} 
 
 /* Adresse mail */
 
@@ -124,7 +124,7 @@ width: 100%;
     position: absolute;
     padding-left: 15%;
     padding-top: 5%;
-}
+} 
 
 /* localisation */
 
@@ -138,7 +138,7 @@ width: 100%;
     position: absolute;
     padding-left: 15%;
     padding-top: 10%;
-}
+} 
 
 /* Linkedin */
 
@@ -146,7 +146,7 @@ width: 100%;
     position: absolute;
     padding-left: 50%;
     
-}
+} 
 
 /* Instagram */
 
@@ -154,7 +154,7 @@ width: 100%;
     position: absolute;
     padding-left: 50%;
     padding-top: 5%;
-}
+} 
 
 /* Github  */
 
@@ -298,6 +298,7 @@ width: 100%;
 
 /* Section de contacter */
 
+
 .CONTACTER {
     padding-bottom: 5%;
 }
@@ -340,7 +341,6 @@ width: 100%;
 
     padding-top: 14%;
 }
-
 
 
 
@@ -450,6 +450,9 @@ width: 100%;
 }
 
 
+
+
+
 }
 
 @media (max-width: 500px){
@@ -476,6 +479,7 @@ width: 100%;
         
             
         }
+
 
 /* Section contacter */
 
@@ -513,7 +517,7 @@ width: 100%;
 
 .linkedin img {
     position: absolute;
-    padding-left: 5%;
+    padding-left: 0%;
     padding-top: 45%;
     
 }
@@ -531,6 +535,8 @@ width: 100%;
     padding-left: 10%;
     padding-top: 75%;
 }
+
+
 
 
 }
