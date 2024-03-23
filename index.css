@@ -8,6 +8,7 @@ width: 100%;
 
 .div-titre {
     width: 100%;
+    margin-left: 10%;
 }
 
 .logoAP {
@@ -459,12 +460,11 @@ width: 100%;
 
 
     .logoAP{
-        padding-top: 35%;
-        padding-left: 10%;
+        margin-top: 5%;
     }
     .titre {
         
-        padding-left: 20%;
+        margin-left: 0%;
         padding-top: 2%;
         padding-bottom: 2%;
         font-family: 'BenchNine', light;
