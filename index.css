@@ -39,9 +39,9 @@ width: 100%;
 h2{
     color: black;
     font-family: 'Urbanist', 'thin';
-    padding-top: 10%;
-    padding-bottom: 5%;
-    padding-left: 44px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 44px;
     font-size: 44px;
     font-weight: 100;
 
@@ -270,7 +270,7 @@ width: 100%;
 }
 @media (max-width: 1024px) {
     .accueil {
-        padding-bottom: 10%;
+        margin-bottom: 10%;
     }
     .logoAP  {
         width: 70%;
@@ -456,6 +456,8 @@ width: 100%;
 }
 
 @media (max-width: 500px){
+
+
     .logoAP{
         padding-top: 35%;
         padding-left: 10%;
@@ -472,8 +474,8 @@ width: 100%;
         h2{
             color: black;
             font-family: 'Urbanist', 'thin';
-            padding-top: 10%;
-            padding-left: 44px;
+            margin-top: 10%;
+            margin-left: 5%;
             font-size: 26px;
             font-weight: 100;
         

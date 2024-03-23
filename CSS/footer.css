@@ -1,81 +1,51 @@
-.footerHome {
-    position: absolute; 
-}
-.footer1{
-    padding-top: 20%;
+.footer-propos {
+    margin-top: 0%;
 }
 
-
-.footer {
+footer {
+    margin-top: 20%;
     background-color: black;
+}
+footer h3 {
+    color: white;
+    font-size: 32px;
+}
+
+.titre-portfolio {
     display: flex;
-    padding-top: 5%;
-    padding-bottom: 5%;
-}
-.accueil {
-    color: white;
-    padding-right: 15%;
-    padding-left: 13%;
-}
-.projet {
-    color: white;
-    padding-right: 13%;
-}
-.propos {
-    color: white;
-    padding-right: 13%;
-}
-.mention {
-    color: white;
-    padding-right: 13%;
+    justify-content: center;
+    border-bottom: 2px solid var(--WHITE, #FFF);
 }
 
-.textmention h2 {
-    padding-top: 5%;
-    padding-left: none;
-    padding-bottom: 3%;
-    color: black;
+.footer-content {
+    display: flex;
+    flex-direction: column;
 }
 
-.textmention a {
-    /* padding-right: 5%; */
-    padding-left: 5%;
+.footer-content a {
+    color: white;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 5%;
 }
 
-.textmention p {
-    padding-top: 2%;
-    padding-left: 20%;
-}
-@media (max-width: 1024px) {
-    .accueil {
-        
-        padding-right: 7%;
-        padding-left: 2%;
-    }
-    .projet {
-        
-        padding-right: 7%;
-        
-    }
-    .propos {
-        
-        padding-right: 7%;
-        
-    }
-    .mention {
-        
-        padding-right: 7%;
-       
-    }
-}
+
 @media (max-width: 800px) {
-    .footer1{
-        padding-top: 30%;
-    }
+footer {
+    margin-top: 40%;
+}
 }
 
 @media (max-width: 500px) {
-    .footer1{
-        padding-top: 100%;
-    }
+
+.footer-propos {
+    margin-top: 40%;
+}
+footer {
+    margin-top: 100%;
+}
+
+footer h3 {
+    font-size: 20px;
+}
 }

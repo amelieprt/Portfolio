@@ -1,0 +1,151 @@
+.audio-content {
+    margin-right: 50%;
+    margin-left: 5%;
+}
+
+/* section de breakout  */
+
+.breakout-content {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.breakout-content p {
+    margin-right: 20%;
+}
+.breakout-content img {
+    width: 20%;
+    height: auto;
+    margin-right: 10%;
+}
+
+.acceder-film {
+    display: flex;
+padding: 15px 30px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 5px;
+border: 1px solid var(--BLACK, #000);
+background: var(--AMELIE---ORANGE, #EFA35D);
+margin-left: 5%;
+}
+
+/* section de Beaba */
+
+.Beaba-content {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.Beaba-content p {
+    margin-right: 20%;
+}
+.Beaba-content img {
+    width: 20%;
+    height: auto;
+    margin-right: 10%;
+}
+
+.Voir-compte {
+
+display: flex;
+padding: 15px 30px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 5px;
+border: 1px solid var(--BLACK, #000);
+background: var(--AMELIE---ORANGE, #EFA35D);
+margin-left: 5%;
+
+}
+
+.motion-content {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.motion-content p {
+    margin-right: 20%;
+}
+
+.motion-content img {
+    margin-right: 10%;
+}
+
+
+.comptoir-content {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.comptoir-content p {
+    margin-right: 20%;
+}
+.comptoir-content img {
+    width: 20%;
+    height: auto;
+    margin-right: 10%;
+}
+
+
+@media (max-width: 500px) { 
+
+.breakout-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+    align-items: center;
+}
+.breakout-content p {
+    margin-right: 0%;
+}
+
+
+.Beaba-content {
+
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+    align-items: center;
+}
+
+.Beaba-content p {
+    margin-right: 0%;
+}
+.motion-content {
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+    align-items: center;
+}
+.motion-content p {
+    margin-right: 0%;
+}
+.comptoir-content {
+
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+    align-items: center;
+}
+
+.comptoir-content p {
+    margin-right: 0%;
+}
+
+
+}
