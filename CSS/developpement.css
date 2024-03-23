@@ -3,6 +3,8 @@
     margin-left: 5%;
 }
 
+
+/*  Le site du PDM */
 .PDM-content {
     display: flex;
     flex-direction: row;
@@ -17,3 +19,113 @@
     height: auto;
     margin-right: 10%;
 }
+
+/* Le site e-commerce de la trabuc */
+.trabuc-content {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.trabuc-content p {
+    margin-right: 20%;
+}
+.trabuc-content img {
+    width: 20%;
+    height: auto;
+    margin-right: 10%;
+}
+
+
+/* le site de CAPC */
+.capc-content {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.capc-content p {
+    margin-right: 20%;
+}
+.capc-content img {
+    width: 20%;
+    height: auto;
+    margin-right: 10%;
+}
+
+/* worshop spooon */
+
+.spooon-content {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.spooon-content p {
+    margin-right: 20%;
+}
+.spooon-content img {
+    width: 20%;
+    height: auto;
+    margin-right: 10%;
+}
+
+
+
+@media (max-width: 500px) { 
+
+    .PDM-content {
+        display: flex;
+        flex-direction: column;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 10%;
+        align-items: center;
+    }
+    .PDM-content p {
+        margin-right: 0%;
+    }
+    
+    
+    .trabuc-content {
+    
+        flex-direction: column;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 10%;
+        align-items: center;
+    }
+    
+    .trabuc-content p {
+        margin-right: 0%;
+    }
+
+    .CAPC h2 {
+    
+        margin-right: 5%;
+    }
+    .capc-content {
+        flex-direction: column;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 10%;
+        align-items: center;
+    }
+    .capc-content p {
+        margin-right: 0%;
+    }
+    .spooon-content {
+    
+        flex-direction: column;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 10%;
+        align-items: center;
+    }
+    
+    .spooon-content p {
+        margin-right: 0%;
+    }
+    
+    
+    }

@@ -76,6 +76,8 @@ margin-left: 5%;
 }
 
 .motion-content img {
+    width: 20%;
+    height: auto;
     margin-right: 10%;
 }
 
