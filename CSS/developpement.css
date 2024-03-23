@@ -1,0 +1,19 @@
+.dev-content {
+    margin-right: 50%;
+    margin-left: 5%;
+}
+
+.PDM-content {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.PDM-content p {
+    margin-right: 20%;
+}
+.PDM-content img {
+    width: 20%;
+    height: auto;
+    margin-right: 10%;
+}
