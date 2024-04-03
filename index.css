@@ -144,7 +144,7 @@ width: 100%;
 /* Linkedin */
 
 .linkedin img {
-    position: absolute;
+    margin-bottom: 3% ;
     padding-left: 50%;
     
 } 
@@ -152,17 +152,17 @@ width: 100%;
 /* Instagram */
 
 .instagram img {
-    position: absolute;
+    margin-bottom: 3%;
     padding-left: 50%;
-    padding-top: 5%;
+
 } 
 
 /* Github  */
 
 .github img {
-    position: absolute;
+    
     padding-left: 50%;
-    padding-top: 10%;
+
 }
 
 
@@ -332,21 +332,6 @@ width: 100%;
 
 
 
-/* Instagram */
-
-.instagram img {
-
-    padding-top: 7%;
-}
-
-/* Github  */
-
-.github img {
-
-    padding-top: 14%;
-}
-
-
 
 
 
@@ -435,22 +420,21 @@ width: 100%;
 }
 
 /* Linkedin */
-.linkedin {
-    padding-left: 10%;
-}
+.linkedin img {
+    margin-bottom: 6% ;
+    padding-left: 60%;
+    
+} 
 
 /* Instagram */
 
 .instagram img {
+    margin-bottom: 6%;
     padding-left: 60%;
-    padding-top: 10%;
-}
 
-/* Github  */
-
+} 
 .github img {
-    padding-left: 60%;
-    padding-top: 20%;
+    margin-left: 10%;
 }
 
 
@@ -521,25 +505,30 @@ width: 100%;
 
 
 .linkedin img {
-    position: absolute;
-    padding-left: 0%;
-    padding-top: 45%;
+    margin-top: 45%;
+    margin-bottom: 5% ;
+    padding-left: 10%;
     
-}
+} 
 
 /* Instagram */
 
 .instagram img {
+    margin-bottom: 5%;
     padding-left: 10%;
-    padding-top: 60%;
-}
+
+} 
 
 /* Github  */
 
-.github img {
-    padding-left: 10%;
-    padding-top: 75%;
+.github  {
+    
+    margin-left: 5%;
+    display: flex;
+
 }
+
+
 
 
 
