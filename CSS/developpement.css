@@ -72,8 +72,13 @@
 
 
 
+
 @media (max-width: 500px) { 
 
+    .dev-content {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
     .PDM-content {
         display: flex;
         flex-direction: column;
